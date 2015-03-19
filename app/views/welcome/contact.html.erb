@@ -1,0 +1,14 @@
+<!-- contact.html.erb -->
+<style>
+	body {
+
+		background: <%= @color %>;
+	}
+</style>
+
+
+<%= link_to "Blue", {controller: "welcome", action: "contact", color: "blue"}, class: "btn btn-primary" %>
+<%= link_to "Red", {controller: "welcome", action: "contact", color: "red"}, class: "btn btn-danger" %>
+
+<p>Contact me @thomasweld on Twitter!</p>
+
